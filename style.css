@@ -32,8 +32,8 @@ body{
 
 @font-face {
     font-family: iransance;
-    src: url('font/Sans\ a4fran3.ttf') format('truetupe'),
-         url('font/Sans\ a4fran3.woff') format('woff');
+    src: url('Sans\ a4fran3.ttf') format('truetupe'),
+         url('Sans\ a4fran3.woff') format('woff');
 }
 
 .header{
