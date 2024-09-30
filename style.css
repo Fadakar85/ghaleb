@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iransance;
+}
+
+body{
+    background-image: url('nody-بک-گراند-ساده-و-شیک-برای-فتوشاپ-1635101430.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    
+}
+
+:root {
+    --blue-color: #068fff;
+    --purple-color: #4E4FEB;
+    --black-color: #000000;
+    --gray-color: #EEEEEE;
+}
+
+::-webkit-scrollbar{
+    background-color: var(--black-color);
+    width: 0.5rem;
+}
+::-webkit-scrollbar-thumb{
+    box-shadow: 0 0 20px var(--gray-color);
+    border-radius: 0px;
+    background-color: var(--blue-color);
+}
+
+@font-face {
+    font-family: iransance;
+    src: url('font/Sans\ a4fran3.ttf') format('truetupe'),
+         url('font/Sans\ a4fran3.woff') format('woff');
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: var(--blue-color);
+}
+
+.whirecolor:hover{
+    color: #e0e0e0;
+}
+
+.firstmohtava{
+    z-index: 1000;
+    padding: 0;
+}
+
+.secondHeader{
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    z-index: 0;
+}
+
+.mohtava{
+    width: 100%;
+    height: auto;
+    background-color: var(--black-color);
+}
+
+.imageHeader{
+    z-index: 0;
+}
+
+.imageHeader4{
+    left: 0%;
+    bottom: -30%;
+    width: 450px;
+    height: 450px;
+    border-radius: 0% 50% 30% 0%;
+    object-fit: cover;
+    box-shadow: 0 0 20px black;
+}
+
+.imageHeader3{
+    width: 400px;
+    height: 400px;
+    bottom: -40%;
+    box-shadow: 0 0 20px black;
+    object-fit: cover;
+}
+
+.imageHeader2{
+    bottom: 10%;
+    left: 30%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 0 20px black;
+}
+
+.imageHeader1{
+    left: 5%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 0 0 20px black;
+}
+
+.ullis{
+    color: var(--gray-color);
+}
+
+.wrapperfather{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2rem;
+}
+
+.wrapperfather1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .ullis{
+        padding: 10%;
+    }
+    .wrapperfather{
+        grid-template-columns: auto auto auto;
+    }
+    .firstmohtava{
+        top: 480px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .wrapperfather{
+        grid-template-columns: auto auto;
+    }
+    .wrapperfather1{
+        grid-template-columns: auto auto auto;
+    }
+    
+}
+
+@media screen and (max-width: 590px) {
+    *{
+        width: 100%;
+    }
+    .temas-poshti{
+        flex-wrap: wrap;
+    }
+    .tamposhtbach{
+        width: 100%;
+    }
+    .chat{
+        width: 20%;
+    }
+    .posht{
+        justify-content: center;
+    }
+    .kharid-btn{
+        width: 60%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .kharid{
+        width: 30%;
+    }
+    .kharid1{
+        width: 70%;
+    }
+    .flash{
+        left: 30%;
+    }
+    .wrapperfather1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .ulcont{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .searchconteiner{
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-bottom: 10rem;
+    }
+    .buyNow{
+        width: 50%;
+    }
+    .imdiv{
+        display: none;
+    }
+    .tozihat{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .searchbox{
+        width: 10rem;
+    }
+    .wrapperfather{
+        width: 95%;
+    }
+    .lister{
+        margin-top: 4rem;
+        border: 1px solid var(--blue-color);
+        padding-right: 0.75rem;
+    }
+    .lister1{
+        margin-bottom: 3rem;
+        border: 1px solid var(--blue-color);
+        padding-right: 0.75rem;
+    }
+    .ulli{
+        flex-wrap: wrap;
+        width: 10%;
+        padding: 0;
+        margin: 0;
+    }
+    .lister2{
+        margin-top: 10rem;
+        left: 3rem;
+        border: 1px solid var(--blue-color);
+        padding-right: 0.75rem;
+    }
+    .ullis{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .flash-buy{
+        left: 30%;
+    }
+    .poshtrit{
+        margin-right: 0;
+        text-align: right;
+    }
+    .tiket{
+        margin-right: 5rem;
+    }
+    .sendpay{
+        display: none;
+    }
+    .ersalpayam{
+        margin-top: 1rem;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .neveshtani{
+        justify-content: center;
+    }
+    .sendpay1{
+        width: 40%;
+    }
+    .imageHeader{
+        display: none;
+    }
+    .wrapperfather{
+        grid-template-columns: auto;
+    }
+    .wrapperfather1{
+        grid-template-columns: auto auto;
+    }
+    .tozihat{
+        text-align: center;
+        margin: auto;
+    }
+    .text-xs-center{
+        text-align: center;
+        margin: auto;
+    }
+    .wrapper{
+        width: 50%;
+    }
+    .ullis{
+        padding: 10%;
+        width: 50%;
+    }
+    .ulli{
+        flex: wrap;
+    }
+    .ulcont{
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    .searchconteiner{
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 500px) {
+   .lister3{
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+   }
+   .lister2{
+    left: 5rem;
+   }
+   .kharid-btn{
+    width: 90%;
+   }
+}
+
+@media screen and (max-width: 400px) {
+    .lister3{
+        top: 7rem;
+        left: 10rem;
+       }
+       .lister2{
+        left: 8rem;
+       }
+       .lister4{
+        position: relative;
+        top: 7rem;
+        left: 10rem;
+       }
+       .kharid-btn{
+        width: 90%;
+       }
+}
+
+@media screen and (max-width: 300px) {
+    .lisret5{
+        position: relative;
+        left: 3rem;
+    }
+    .lister2 ,.lister3 ,.lister4{
+        left: 12rem;
+    }
+}
+
+.emkanat{
+    border: none;
+}
+
+.yinyang{
+    opacity: 0;
+    transition: all 0.5s ease;
+    position: absolute;
+    left: 25%;
+    top: 12.5%;
+}
+
+.logo{
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+.lokh{
+    position: relative;
+}
+
+.lokh:hover .yinyang{
+    opacity: 1;
+}
+
+.lokh:hover .logo{
+    opacity: 0;
+}
+
+.buyNow{
+    background-color: var(--purple-color);
+}
+
+.buyNow:hover{
+    background-color: #4e4eebab;
+}
+
+.numberDemos{
+    text-shadow: 0 0 20px var(--blue-color);
+}
+
+.wrapper{
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+}
+
+.images{
+    width: 100%;
+    height: 100%;
+    transition: 1s ease;
+    display: block;
+}
+
+.images:hover{
+    scale: 120%;
+    opacity: 0.3;
+}
+
+.overlay{
+    background-color: var(--black-color);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    bottom: -40%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: .3s ease;
+    z-index: 1000!important;
+    box-sizing: border-box;
+    border-radius: 50% 50% 0 0;
+}
+
+.overlay:hover{
+    background-color: var(--black-color);
+    text-shadow: 0 0 10px var(--blue-color);
+}
+
+.wrapper:hover .overlay{
+    bottom: -10%;
+}
+
+.mt-6{
+    margin-top: 6rem;
+}
+
+.mt-7{
+    margin-top: 9rem;
+}
+
+.me-6{
+    margin-left: 6rem;
+}
+
+.me-7{
+    margin-left: 9rem;
+}
+
+.searchbox{
+    outline: none;
+    border: none;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(5,5,5,1) 11%, rgba(7,7,7,1) 14%, rgba(12,12,12,1) 17%, rgba(94,94,94,1) 43%, rgba(238,238,238,1) 71%);
+    
+}
+
+.searchbtn{
+    background-color: var(--blue-color);
+    border-radius: 0 10px 10px 0;
+}
+
+.searchbtn:hover{
+    background-color: var(--purple-color);
+}
+
+.listdemo{
+    color: var(--gray-color);
+    font-size: 10px;
+}
+
+.listdemo:hover{
+    color: var(--purple-color);
+    text-shadow: 0 0 30px #ffffff;
+}
+
+.listdemo:active{
+    color: var(--blue-color);
+}
+
+.option{
+    background-color: var(--gray-color);
+    height: auto;
+}
+
+.emkanat{
+    color: var(--blue-color);
+    transition: all 0.5s ease;
+    font-size: 1.75rem;
+}
+
+.emkanat:hover{
+    transform: rotate(360deg);
+    text-shadow: 0 0 20px var(--blue-color);
+    font-size: 2.25rem;
+}
+
+.kharidary{
+    bottom: 12.5%;
+}
+
+.logoino{
+    background-color: var(--gray-color);
+}
+
+.kharid-btn{
+    background-color: var(--purple-color);
+    border-radius: 20px 80px 80px 20px;
+}
+
+.kharid-btn:hover{
+    background-color: var(--blue-color);
+}
+
+.kharid-btn:hover .flash-buy{
+    transform: translate(20px, 0);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.kharid-btn:hover .flash{
+    transform: translate(0,0);
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.flash{
+    transform: translate(-20px,0);
+    opacity: 0;
+}
+
+.ender-site{
+    min-height: 250px;
+}
+
+.kharidury{
+    line-height: 3rem;
+}
+
+.payamtext{
+    width: 90%;
+    height: 5rem;
+    outline: none;
+    border: 3px solid var(--purple-color);
+    background-color: var(--gray-color);
+    border-radius: 10px 10px 0 10px;
+}
+
+.sendpay{
+    background-color: var(--purple-color);
+}
+
+.sendpay:hover{
+    background-color: var(--blue-color);
+}
+
+.sendpay{
+    position: absolute;
+    border-radius: 0 10px 10px 0;
+    left: 0%;
+    bottom: 0%;
+    background-color: var(--purple-color);
+}
+
+.sendpay:hover{
+    background-color: var(--blue-color);
+}
+
+.payamtext:focus{
+    border: 2px solid var(--blue-color);
+    box-shadow: 0 0 20px var(--purple-color);
+}
+
+.neveshtani{
+    width: 90%;
+}
+
+.nametext{
+    width: 50%;
+    outline: none;
+    border: 3px solid var(--purple-color);
+    background-color: var(--gray-color);
+}
+
+.nametext:focus{
+    border: 2px solid var(--blue-color);
+    box-shadow: 0 0 20px var(--purple-color);
+}
+
+.nameemail{
+    width: 50%;
+    outline: none;
+    border: 3px solid var(--purple-color);
+    background-color: var(--gray-color);
+}
+
+.nameemail:focus{
+    border: 2px solid var(--blue-color);
+    box-shadow: 0 0 20px var(--purple-color);
+}
+
+.deletbtn{
+    outline: none;
+    border: none;
+}
